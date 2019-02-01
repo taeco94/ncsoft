@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/*nc_sub_info.css*/
+
+@import url("./info_layout/nc_sub_info_common.css");
+@import url("./info_layout/nc_sub_info_mobile.css");
+@import url("./info_layout/nc_sub_info_tablet.css");
+@import url("./info_layout/nc_sub_info_labtop.css");
+@import url("./info_layout/nc_sub_info_pcfull.css");

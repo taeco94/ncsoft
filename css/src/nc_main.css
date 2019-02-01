@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* nc_main.css */
+
+@import url("./layout/nc_main_common.css");
+@import url("./layout/nc_main_mobile.css");
+@import url("./layout/nc_main_tablet.css");
+@import url("./layout/nc_main_labtop.css");
+@import url("./layout/nc_main_pcfull.css");

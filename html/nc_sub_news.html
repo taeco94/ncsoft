@@ -1,0 +1,205 @@
+<!DOCTYPE html> 
+<!-- nc_sub_info.html --> 
+<html lang="ko-KR">  
+<head>  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0,maximum-cale3.0,minmum-scale=0.5">
+
+<!-- normal -->
+<link rel="stylesheet" href="../font/stylesheet.css" />
+<link rel="stylesheet" href="../css/base/reset.css" />
+<link rel="stylesheet" href="../css/base/common.css" />
+<link rel="stylesheet" href="../css/src/nc_sub_info.css" />
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+ <!-- normal end-->
+ 
+ <!-- link:touch (apple)-->
+  <link rel="apple-touch-icon" href="../nc.png">
+  <!-- link:favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="../nc.png">
+
+  <!--[if lte ie 9]>
+      <srcipt src="../ie/html5shiv/dist/html5shiv.js"><srcipt>     
+      <srcipt src="../ie/css3pie/PIE_IE9.js"><srcipt>
+      <srcipt src="../ie/ie9.min.js"></srcipt>
+      <srcipt src="../ie/respond/dest/respond.min.js"></srcipt>
+      <link rel="stylesheet" href="../css/src/file name_forIE.css" />
+    <![endif]-->  
+
+    
+    <title>NCsoft</title>
+</head>
+<body>
+  <!-- layout -->
+
+  <div id="wrap">
+
+<!-- header============================================ -->
+  <header id="headBox">
+    <h1><a href="nc_main.html"><span class="nc_logo">ncsoft</span></a></h1>
+
+    <nav class ="gnbBox">
+      <h2 class="hidden">gnb영역</h2>
+      <div class="language"><a href="#">language<i class="fas fa-sort-down"></i></a></div>
+      <div class="gnb_btn">
+        <a href="#"><span class="hidden">navigation button</span></a>
+      </div><!--======mobible gnb button====-->
+
+      <ul>
+         <li class="main_gnb"><a href="#">기업소개</a>
+            <ul class="sub sub_gnb_01">
+              <li><a href="#">기업개요</a></li>
+              <li><a href="#">기업문화</a></li>
+              <li><a href="#">기업연혁</a></li>
+              <li><a href="#">CEO메시지</a></li>
+              <li><a href="#">RnD센터</a></li>
+              <li><a href="#">견학신청</a></li>
+              <li><a href="#">글로벌네트워크</a></li>
+              <li><a href="#">CI소개</a></li>
+              <li><a href="#">정보보호현황</a></li>
+            </ul>
+         </li>
+         <li class="main_gnb"><a href="#">서비스소개</a>
+            <ul class="sub sub_gnb_02">
+              <li><a href="#">전체서비스</a></li>
+              <li><a href="#">MMORPG</a></li>
+              <li><a href="#">모바일</a></li>
+              <li><a href="#">캐주얼</a></li>
+            </ul>
+         </li>
+         <li class="main_gnb"><a href="#">ir정보</a>
+            <ul class="sub sub_gnb_03">
+              <li><a href="#">기업지배구조</a></li>
+              <li><a href="#">공시정보</a></li>
+              <li><a href="#">주가정보</a></li>
+              <li><a href="#">IR자료실</a></li>
+              <li><a href="#">재무정보</a></li>
+              <li><a href="#">주주총회</a></li>
+              <li><a href="#">공고</a></li>
+            </ul>
+         </li>
+         <li class="main_gnb"><a href="#">인재채용</a>
+            <ul class="sub sub_gnb_04">
+              <li><a href="#">입사지원</a></li>
+              <li><a href="#">인사제도</a></li>
+              <li><a href="#">채용문의</a></li>
+              <li><a href="#">채용알림서비스</a></li>
+            </ul>
+         </li>
+         <li class="main_gnb"><a href="#">홍보채널</a>
+            <ul class="sub sub_gnb_05">
+              <li><a href="#">보도자료</a></li>
+              <li><a href="#">언론보도</a></li>
+              <li><a href="#">미디어행사</a></li>
+              
+            </ul>
+         </li> 
+      </ul>
+      
+    </nav>
+  </header> 
+<!-- media================================================================ -->
+  <div id="media">
+    <h2 class="hidden">미디어 영역</h2>
+   <div class="sub_img_box">
+     <h2 class="hidden">미디어 영역</h2>
+    <div class="media_btn_box">
+      <button type="button" class="media_next"><span class="hidden">우</span></button>
+      <button type="button" class="media_prev"><span class="hidden">좌</span></button>
+    </div>
+    <div class="media_indicator">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li><!--======인디케이터 들어갈 자리=========-->
+      </ul>
+    </div>
+  </div>
+   </div>
+
+<!--section(page nav bar)======================================================== -->
+<section id="pageBar">
+  <h2 class="hidden">페이지 길잡이 영역입니다.</h2>
+  <p>information</p>
+  <div class="page_nav">
+    <p><i wai-aria="true"><a href="nc_main.html">H</a></i><span class="hidden">메인페이지로 이동</span></p>
+    <p> 기업소개</p>
+    <p> 기업개요</p>
+    <!-- 비포써서 > 만들기 -->
+  </div>
+</section>
+
+<!-- aside(sub메뉴 리모컨)================================================================== -->
+<!-- 모바일버전:슬라이드  , pc버전:fixed  -->
+<aside id ="sideBox">
+  <h2 class="hidden">보조 메뉴 영역입니다.</h2>
+    <div class="slide_menu_wrap fixed_menu_wrap">
+    <ul>
+      <li><a href="#">기업개요</a></li>
+      <li><a href="#">기업문화</a></li>
+      <li><a href="#">기업연혁</a></li>
+      <li><a href="#">CEO메시지</a></li>
+      <li><a href="#">RnD센터</a></li>
+      <li><a href="#">견학신청</a></li>
+      <li><a href="#">글로벌네트워크</a></li>
+      <li><a href="#">CI소개</a></li>
+    </ul>
+  </div>
+</aside>
+
+<!-- conBox====================================================== -->
+<section id="conBox">
+  
+  
+</section>
+
+<!-- etcarea=============================== -->
+
+<article id="article_02">
+  <h2 class="hidden">디자인 이미지</h2>
+<div class="bg_fixed"></div>
+</article>
+
+
+<!-- btn======================================== -->
+    <div id="bring_btn"><a href="#headBox"><i class="fas fa-angle-up"></i><p>TOP</p></a></div>
+  <!-- footer================================== -->
+  <footer id="footBox">
+   <h2 class="hidden">footer영역</h2>
+    <div id="footerWrap">
+      <div class="family_site">familysite<div class="family_btn"><i class="fas fa-arrow-right"></i></div></div>
+      <div class="footer_logo"><a href="nc_main.html"></a><span class="hidden">logo</span></div> 
+        
+      <div class="footer_info">
+          <p><a href="#">고객센터</a> I 
+          <a href="#">게임관련문의처</a> I 
+          <strong><a href="#">개인정보처리방침</a></strong></p>
+          <p>㈜엔씨소프트 대표이사 김택진<p>
+          <p>대표전화 : 02-2186-3300<p>
+          <address>경기도 성남시 분당구 대왕판교로 644번길 12</address> 
+       </div>
+
+      <div class="sns_link">
+        <ul>
+          <li><a href="#"><span class="hidden">twitter</span></a></li>
+          <li><a href="#"><span class="hidden">facebook</span></a></li>
+          <li><a href="#"><span class="hidden">youtube</span></a></li>
+        </ul>
+      </div>
+
+    <div class="copy_box">© TAECO Corp.</div>
+    </div>
+   </footer>
+
+  </div>  
+  <!-- wrap end -->
+
+ 
+  <!-- script(jQuery) -->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+ 
+</body>
+</html>

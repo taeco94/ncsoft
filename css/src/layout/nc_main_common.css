@@ -1,0 +1,22 @@
+/*nc_main_common.css*/
+   
+  
+/*commonArea===============================================*/
+
+#wrap{width: 100%;height: auto;min-height: 10rem;background-color: #ccc }
+h1>a>span{display: block;width: 0; height: 0; overflow: hidden;} 
+
+/*=================Top button======================*/
+     #bring_btn{position: fixed;bottom: 0.625rem;right:0.625rem; 
+               width: 4.0625rem; height: 4.0625rem;text-align: center;
+               background-color:rgba( 33, 33, 33, 70%);border: 2px solid #d8b17e;box-sizing: border-box; z-index: 100;border-radius: 100%;} 
+      #bring_btn>a{display: block;width: 100% ;height: 100%;font-size: 1.2rem;font-weight:bold;color:#d8b17e;}
+      #bring_btn>a>p{line-height: 1.875rem;}
+      .link,.section_banner{box-shadow:0.1875rem 0.1875rem 0.375rem  #222222}
+
+    .copy_box{width: 100%; height: 1.25rem;font-weight: 700; font-size:0.75rem;text-align: center;color: #fff;}
+      img{width: 100%; height: 100%;}
+
+
+     
+/*=================================================*/
