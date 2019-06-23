@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="../font/stylesheet.css" />
 <link rel="stylesheet" href="../css/base/reset.css" />
 <link rel="stylesheet" href="../css/base/common.css" />
-<link rel="stylesheet" href="../css/src/nc_sub_info.css" />
+<link rel="stylesheet" href="../css/src/nc_sub_news.css" />
 <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
  <!-- normal end-->
@@ -43,12 +43,21 @@
     <nav class ="gnbBox">
       <h2 class="hidden">gnb영역</h2>
       <div class="language"><a href="#">language<i class="fas fa-sort-down"></i></a></div>
-      <div class="gnb_btn">
-        <a href="#"><span class="hidden">navigation button</span></a>
-      </div><!--======mobible gnb button====-->
+<!-- 수술중============================================= -->
 
+    
+        <button type="button" class="gnb_btn">
+          <h3 class="hidden">navigation button</h3>
+          <span class="bar_01"></span>
+          <span class="bar_02"></span>
+          <span class="bar_03"></span>
+        </button>
+      <!--======mobible gnb button====-->
+
+<!-- 수술실============================================ -->
+       
       <ul>
-         <li class="main_gnb"><a href="#">기업소개</a>
+         <li class="main_gnb"><a href="nc_sub_info.html">기업소개</a>
             <ul class="sub sub_gnb_01">
               <li><a href="#">기업개요</a></li>
               <li><a href="#">기업문화</a></li>
@@ -84,11 +93,11 @@
             <ul class="sub sub_gnb_04">
               <li><a href="#">입사지원</a></li>
               <li><a href="#">인사제도</a></li>
-              <li><a href="#">채용문의</a></li>
+              <li><a href="#">채용문의</a></li> 
               <li><a href="#">채용알림서비스</a></li>
             </ul>
          </li>
-         <li class="main_gnb"><a href="#">홍보채널</a>
+         <li class="main_gnb"><a href="nc_sub_news.html">홍보채널</a>
             <ul class="sub sub_gnb_05">
               <li><a href="#">보도자료</a></li>
               <li><a href="#">언론보도</a></li>
@@ -103,26 +112,28 @@
 <!-- media================================================================ -->
   <div id="media">
     <h2 class="hidden">미디어 영역</h2>
-   <div class="sub_img_box">
-     <h2 class="hidden">미디어 영역</h2>
+    <video loop="loop" class="video_area" poster="../media/thumbnail.png" preload="" autoplay="autoplay">
+      <source src="../media/Sequence_01.mp4" type="video/mp4" />
+    </video>
+         <span class="hidden">죄송합니다.IE 8 이하는 비디오가 나오지 않습니다. IE 버전을 업데이트 하시길 바랍니다.</span> 
     <div class="media_btn_box">
-      <button type="button" class="media_next"><span class="hidden">우</span></button>
-      <button type="button" class="media_prev"><span class="hidden">좌</span></button>
+      <button type="button" class="media_next"><span class="hidden">다음 내용보기</span></button>
+      <button type="button" class="media_prev"><span class="hidden">이전 내용보기</span></button>
     </div>
     <div class="media_indicator">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li><!--======인디케이터 들어갈 자리=========-->
+      <ul class="indi_wrap">
+        <li class="indi_img_01"><span class="hidden">이미지_01</span></li>
+        <li class="indi_img_02"><span class="hidden">이미지_02</span></li>
+        <li class="indi_img_03"><span class="hidden">이미지_03</span></li><!--======인디케이터 들어갈 자리=========-->
       </ul>
     </div>
   </div>
-   </div>
+
 
 <!--section(page nav bar)======================================================== -->
 <section id="pageBar">
   <h2 class="hidden">페이지 길잡이 영역입니다.</h2>
-  <p>information</p>
+  <p>news <i wai-aria="ture">&</i> press</p>
   <div class="page_nav">
     <p><i wai-aria="true"><a href="nc_main.html">H</a></i><span class="hidden">메인페이지로 이동</span></p>
     <p> 기업소개</p>
@@ -137,23 +148,42 @@
   <h2 class="hidden">보조 메뉴 영역입니다.</h2>
     <div class="slide_menu_wrap fixed_menu_wrap">
     <ul>
-      <li><a href="#">기업개요</a></li>
-      <li><a href="#">기업문화</a></li>
-      <li><a href="#">기업연혁</a></li>
-      <li><a href="#">CEO메시지</a></li>
-      <li><a href="#">RnD센터</a></li>
-      <li><a href="#">견학신청</a></li>
-      <li><a href="#">글로벌네트워크</a></li>
-      <li><a href="#">CI소개</a></li>
+      <li><a href="#">보도자료</a></li>
+      <li><a href="#">언론보도</a></li>
+      <li><a href="#">미디어행사</a></li>
+   
     </ul>
   </div>
 </aside>
 
 <!-- conBox====================================================== -->
-<section id="conBox">
+<article id="conBox">
+  <h2 class="hidden">콘텐츠 영역</h2>
+<div class="head_news">
+  <h3 class="hidden">헤드라인</h3>
+  <div class="head_news_img"><a href="#"></a></div>
+
+  <dl class="head_news_text">
+    <dt>파이널 블레이드, 신규 영웅 2종 등 1월 콘텐츠 업데이트 진행</dt>
+    <dd>액티브, 패시브 스킬을 각각 발휘하는 새로운 영웅 2종 공개</dd>
+    <dd>빙고 이벤트, 문파 협동 이벤트 등을 수행하면 각종 아이템 획득 가능</dd>
+  </dl>
+  <a href="#">자세히 보기 <i class="fas fa-caret-right"></i></a>
+</div>
+
+<div class="news_contents">
+ <h3 class="hidden">뉴스 콘텐츠</h3> 
+  
+
+
+</div>
+
+
+</article>
+
+
   
   
-</section>
 
 <!-- etcarea=============================== -->
 
@@ -200,6 +230,8 @@
   <!-- script(jQuery) -->
   <script src="../js/base/jquery-3.3.1.min.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/nc_main.js"></script>
+  <script src="../js/src/nc_news/nc_sub_news_mobile.js"></script>
  
 </body>
 </html>

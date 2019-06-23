@@ -6,7 +6,7 @@
   var tab = 768;
   var pc = 1366;
   var device; 
-
+ 
   var div = function(ww){
     if(ww <= mob){device = "mob"}
     else if(mob < ww && tab >= ww){device = "tab"}

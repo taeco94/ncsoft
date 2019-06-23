@@ -34,7 +34,7 @@ btn.on('click' , function(e){
     var num = 0 ;
 
     var next = $('.media_next');
-    var prev = $('.media_prev'); 
+    var prev = $('.media_prev');  
 
 
     var indiClone = indiLi.last().clone(true);

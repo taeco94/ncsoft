@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/*nc_sub_news.css*/
+
+@import url("./news_layout/nc_sub_news_common.css");
+@import url("./news_layout/nc_sub_news_mobile.css");
+@import url("./news_layout/nc_sub_news_tablet.css");
+@import url("./news_layout/nc_sub_news_labtop.css");
+@import url("./news_layout/nc_sub_news_pcfull.css");

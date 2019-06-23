@@ -9,7 +9,7 @@
   #nav_wrap{width: 100%;height: 100%;}
   .section_banner{box-shadow:none;}
 /*mob common end====================*/
-
+ 
 
 /*headar=========================================*/
 
@@ -23,7 +23,7 @@ h1>a{display: block;width: 100%;height: 100%;background-image: url("../../../img
 .gnbBox{float: right;
           width:8.333333vw;/*40/480*100*/ height: 8.333333vw;margin-top: 0.25rem}
 .gnb_btn{position: relative;display: block; width: 100%; height: 8.333333vw;box-sizing: border-box;}
-
+ 
 .gnb_btn span{display: block;width: 100%; height:0.833333vw;/*4/480*100*/background-color: #fff;
                 border-radius: 0.3125rem; transition: all 500ms ease}
 .bar_02{margin: 0.25rem 0 0.25rem 0 ;}

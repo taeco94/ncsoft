@@ -1,11 +1,11 @@
-// nc_mobile.js
+// nc_sub_news_mobile.js
 (function($){
 var winW = $(window).width();
-var tab = 768;
+var mob = 480;
   
   // console.log(winw);
 
-if(481 <= winW && winW <= tab){
+if(winW <= mob ){
     
 //gnb_btn============================================
 var btn = $('.gnb_btn');
@@ -110,9 +110,6 @@ var scr = function(){
         scr();
 });
 //topbutton end==============================================
-
-
-
 
 
 
